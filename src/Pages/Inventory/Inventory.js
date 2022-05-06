@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Service from '../Home/Service/Service';
 
 const Inventory = () => {
     const [cars, setCars]=useState([])
@@ -9,8 +10,16 @@ const Inventory = () => {
         .then(data=>setCars(data))
     },[])
     return (
-        <div>
-            <h2>Inventory page: {cars.length}</h2>
+        <div className='conatiner'>
+            <h1 className='mt-3 text-center display-5 fw-bold'>Types of Vehicle</h1>
+            <h5 className='text-danger text-center'>NEW & USED CARS FOR SALE</h5>
+            <div className='row'>
+            {
+                cars.slice(0,6).map(service=><Service
+                service={service}
+                ></Service>)
+            }
+            </div>
         </div>
     );
 };

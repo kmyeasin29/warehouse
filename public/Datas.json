@@ -2,65 +2,65 @@
     {
         "name":"Sadan",
         "image": "https://i.ibb.co/0mDzqV4/car-1.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "28,801",
         "quantity": "10",
-        "suplier name": "Devon"
+        "supplier": "Devon"
     },
     {
         "name":"Mersedes",
         "image": "https://i.ibb.co/WGS7kG1/car-2.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "27,801",
         "quantity": "8",
-        "suplier name": "John"
+        "supplier": "John"
     },
     {
         "name":"Hunday",
         "image": "https://i.ibb.co/5hTVs6B/car-3.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "24,801",
         "quantity": "12",
-        "suplier name": "Smith"
+        "supplier": "Smith"
     },
     {
         "name":"Lehus",
         "image": "https://i.ibb.co/kQCTPJ4/car-4.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "26,801",
         "quantity": "18",
-        "suplier name": "Katherine"
+        "supplier": "Katherine"
     },
     {
         "name":"Volvo",
         "image": "https://i.ibb.co/WyWbqTy/car-5.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "29,801",
         "quantity": "16",
-        "suplier name": "Kane"
+        "supplier": "Kane"
     },
     {
         "name":"BWM",
         "image": "https://i.ibb.co/r056jzC/car-6.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "50,801",
         "quantity": "15",
-        "suplier name": "William"
+        "supplier": "William"
     },
     {
         "name":"Sebaru",
         "image": "https://i.ibb.co/vwVvnXd/car-7.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "24,801",
         "quantity": "19",
-        "suplier name": "Chris"
+        "supplier": "Chris"
     },
     {
         "name":"Hatcback",
         "image": "https://i.ibb.co/9VhWyNH/car-8.jpg",
-        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997. The C-Class is built at Mercedes-Benz factories in Sindelfingen and Bremen, Germany as well as numerous satellite factories in other countries. The first C-Class (W202) sedan was produced on 1 June 1993, and the first of the second generation (W203) rolled off the assembly line on 18 July 2000",
+        "details": "The Mercedes-Benz C-Class is a line of compact executive cars produced by Daimler AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up until the A-Class arrived in 1997.",
         "price": "21,801",
         "quantity": "20",
-        "suplier name": "Jonathon"
+        "supplier": "Jonathon"
     }
 ]

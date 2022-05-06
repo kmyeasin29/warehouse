@@ -1,9 +1,33 @@
 import React from 'react';
+import { Container, Nav, Navbar} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import logo from '../../../image/logo.svg';
 
 const Header = () => {
     return (
-        <div>
-            <h2>This is Header</h2>
+        <div className='sticky-top'>
+            <>
+                <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                    <Container className='d-flex align-items-center'>
+                        <Navbar.Brand as={Link} to="/">
+                        <img src={logo} height="30px" alt="" />
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="me-auto">
+                                <Nav.Link as={Link} to="/Blog">Blogs</Nav.Link>
+                                <Nav.Link as={Link} to="/Inventory">Inventory</Nav.Link>
+                            </Nav>
+                            <Nav>
+                                <Nav.Link as={Link} to="/Register">Register</Nav.Link>
+                                <Nav.Link eventKey={2} as={Link} to="/Login">
+                                    Login
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            </>
         </div>
     );
 };
