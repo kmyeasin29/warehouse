@@ -11,11 +11,15 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
     const emailRef=useRef('');
     const passwordRef=useRef('');
     const confirmPasswordRef=useRef('');
-    const navigate=useNavigate()
+    const navigate=useNavigate();
+
+    if(loading){
+        return;
+    }
 
     if(user){
         navigate('/Home')

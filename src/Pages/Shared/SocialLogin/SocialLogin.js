@@ -24,6 +24,7 @@ const SocialLogin = () => {
                 <p className='px-2 mt-2'>or</p>
                 <div style={{ height: "1px" }} className="bg-danger w-50"></div>
             </div>
+            {erroElement}
             <Button onClick={() => signInWithGoogle()} className='w-100' variant="dark" type="submit">
                 <img className='mx-3' style={{ width: "25px" }} src='https://i.ibb.co/JpGQ3wX/google.png'></img>
                 Continue With Google
