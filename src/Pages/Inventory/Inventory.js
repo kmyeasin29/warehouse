@@ -15,7 +15,7 @@ const Inventory = () => {
             <h5 className='text-danger text-center'>NEW & USED CARS FOR SALE</h5>
             <div className='row'>
             {
-                cars.slice(0,6).map(service=><Service
+                cars.map(service=><Service
                 service={service}
                 ></Service>)
             }
