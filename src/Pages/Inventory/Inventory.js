@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Service from '../Home/Service/Service';
 import ManageItem from '../ManageItem/ManageItem';
 
@@ -12,9 +13,12 @@ const Inventory = () => {
             .then(data => setCars(data))
     }, [])
     return (
-        <div className='conatiner'>
+        <div className='conatiner text-center'>
             <h1 className='mt-3 text-center display-5 fw-bold'>Types of Vehicle</h1>
             <h5 className='text-danger text-center'>NEW & USED CARS FOR SALE</h5>
+            <Link to='/ManageCar'>
+              <button className='btn btn-danger'>Manage Item</button>
+            </Link>
             <div className='row'>
                 {
                     cars.slice(0, 6).map(service => <Service
