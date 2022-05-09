@@ -22,7 +22,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Home' element={<Home></Home>}></Route>
         <Route path='/ManageItem' element={<ManageItem></ManageItem>}></Route>
-        {/* <Route path='/UpdateItem' element={<UpdateItem></UpdateItem>}></Route> */}
+        {/* <Route path='/Extra' element={<Extra></Extra>}></Route> */}
         <Route path="/AddItem" element={
           <RequireAuth>
             <AddItem></AddItem>

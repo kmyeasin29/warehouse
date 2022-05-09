@@ -12,8 +12,10 @@ const Home = () => {
     // }
     return (
         <div>
-            <Banner></Banner>
-            <Inventory></Inventory>
+            <div>
+                <Banner></Banner>
+                <Inventory></Inventory>
+            </div>
         </div>
     );
 };
