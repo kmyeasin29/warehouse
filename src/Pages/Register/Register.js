@@ -30,7 +30,7 @@ const Register = () => {
         const email=emailRef.current.value;
         const password=passwordRef.current.value;
         const confirmPassword=confirmPasswordRef.current.value;
-        createUserWithEmailAndPassword(email, password)
+        createUserWithEmailAndPassword(email, password, confirmPassword)
 
     }
     return (

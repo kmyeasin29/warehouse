@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Banner.css'
 
 const Carousel = () => {
@@ -12,6 +13,9 @@ const Carousel = () => {
                     <h1 className="card-text fw-bold display-3">HUGE DISCOUNT</h1>
                     <h1 className="card-text fw-bold display-3">UP TO <span className='text-danger'>25%</span></h1>
                     <p className="card-text display-6">COMPLETE HAPPINESS</p>
+                    <Link to='/ManageCar'>
+                <button className='btn btn-danger'>Manage Item</button>
+                </Link>
                   </div>
                   {/* <div className='d-flex justify-content-end bg-danger' style={{width:"300px", height: "300px"}}>
                       
