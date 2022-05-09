@@ -6,10 +6,6 @@ import Inventory from '../Inventory/Inventory';
 
 const Home = () => {
     const [loading] = useAuthState(auth);
-
-    // if(loading){
-    //     return;
-    // }
     return (
         <div>
             <div>
