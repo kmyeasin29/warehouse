@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Service = ({ service }) => {
     const {_id, name, image, supplier, price, quantity, details } = service;
@@ -19,7 +19,9 @@ const Service = ({ service }) => {
                 <p className="card-text">QUANTITY: {quantity}</p>
                 <p className="card-text">SUPPLIER NAME: {supplier}</p>
                 <p className="card-text">DESCRIPTION: {details}</p>
+                <Link to='/ManageCar'>
                 <a href="#" onClick={()=>serviceDetails(_id)} className="btn btn-danger w-100">Manage Stock</a>
+                </Link>
             </div>
         </div>
         </div >

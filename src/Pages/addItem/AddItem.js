@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -49,7 +50,9 @@ const AddItem = () => {
                     <label for="exampleInputPassword1" className="form-label">Upload Image</label>
                     <input type="text" name="image" className="form-control" id="exampleInputPassword1" />
                 </div>
+                <Link to='/'>
                 <button type="submit" className="btn btn-danger w-100">Upload</button>
+                </Link>
             </form>
         </div>
     );
